@@ -1,3 +1,11 @@
+# Env files — nunca subir para o GitHub
+.env
+.env.*
+!.env.example
+
+# Pasta temporária de uploads
+backend/tmp/
+
 # Logs
 logs
 *.log

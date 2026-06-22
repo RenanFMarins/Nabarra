@@ -1,0 +1,34 @@
+{
+  "1782058772925": {
+    "approved": true,
+    "photoId": 1
+  },
+  "1782073413853": {
+    "approved": false,
+    "photoId": 2
+  },
+  "1782083533520": {
+    "approved": false,
+    "photoId": 1
+  },
+  "1782083588286": {
+    "approved": false,
+    "photoIds": [
+      "1"
+    ]
+  },
+  "1782083603521": {
+    "approved": false,
+    "photoIds": [
+      "1",
+      "2"
+    ]
+  },
+  "1782083668041": {
+    "approved": false,
+    "photoIds": [
+      "1",
+      "2"
+    ]
+  }
+}

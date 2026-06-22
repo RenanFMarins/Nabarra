@@ -1,0 +1,49 @@
+{
+  "name": "nabarra",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite --host 0.0.0.0 --port ${PORT:-5173}",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview --host 0.0.0.0 --port ${PORT:-4173}"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.20",
+    "axios": "^1.13.4",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.6",
+    "dayjs": "^1.11.19",
+    "express": "^5.2.1",
+    "framer-motion": "^12.38.0",
+    "lenis": "^1.3.17",
+    "lucide-react": "^1.14.0",
+    "mercadopago": "^2.12.0",
+    "motion": "^12.38.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.6.0",
+    "react-router-dom": "^7.14.2",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.10",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "autoprefixer": "^10.4.24",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^6.0.0",
+    "typescript-eslint": "^8.46.4",
+    "vite": "^7.2.4"
+  }
+}
